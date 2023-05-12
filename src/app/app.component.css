@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  thead th {
+    background-color: #f2f2f2;
+    color: #444;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  tbody td {
+    background-color: #fff;
+    color: #333;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody td:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  tbody td:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  tbody tr:hover td {
+    background-color: #f2f2f2;
+    color: #000;
+  }
+  
+  
+  
